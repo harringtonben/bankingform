@@ -4,6 +4,60 @@
 	<title>Banking Form</title>
 </head>
 <body>
+	<form>
+	<fieldset>
+	<legend>Applicant information</legend>
+	  <label for="first-name">First Name:</label><br>
+	  <input type="text" name="first-name"><br>
+	  <label for="middle-initial">Middle Initial:</label><br>
+	  <input type="text" name="middle-initial"><br>
+	  <label for="last-name">Last Name:</label><br>
+	  <input type="text" name="last-name"><br>
+	  <label for="address">Address:</label><br>
+	  <input type="text" name="address"><br>
+	  <label for="occupation">Occupation:</label><br>
+	  <input type="text" name="occupation"><br>
+	  <label for="employer">Employer:</label><br>
+	  <input type="text" name="employer"><br>
+	  <label for="employer-address">Employer Address:</label><br>
+	  <input type="text" name="employer-address"><br>
+	</fieldset>
+	<fieldset>
+	<legend>Loan Details</legend>
+	  <label for="loan">Type of Loan:</label><br>
+	  <select name="loan">
+	  	  <option value="nothing">--</option>
+		  <option value="commercial">Commercial</option>
+		  <option value="real-estate">Real Estate</option>
+		  <option value="personal">Personal</option>
+		  <option value="mortgage">Mortgage</option>
+		</select><br>
+	  <label for="loanamount">Requested Amount of Loan:</label> <br>
+	  <input type="text" name="loanamount"><br>
+	 Loan Length:<br>
+	  <input type="radio" name="loan-length"> 5 year<br>
+	  <input type="radio" name="loan-length"> 15 year<br>
+	  <input type="radio" name="loan-length"> 30 year<br>
+	 Special Conditions:<br>
+	  <input type="checkbox" name="down-payment"> I have a down payment<br>
+	  <input type="checkbox" name="out-of-state"> Out-of-state resident<br>
+	  <input type="checkbox" name="married"> Married<br>
+	  <input type="checkbox" name="co-signed"> Loan will be co-signed<br>
+	  Additional Comments:<br>
+	  <textarea name="message" rows="10" cols="30">
+	  </textarea><br>
+	</fieldset>
+	<fieldset>
+	<legend>Contact Information</legend>
+	  <label for="email">Email:</label><br>
+	  <input type="email" name="email"><br>
+	  <label for="phone">Phone Number:<br>
+	  <input type="tel" name="phone"><br>
+	  <label for="linkedin">LinkedIn URL:</label><br>
+	  <input type="text" name="linkedin"><br>
+	</fieldset>
+	 <button type="button">Gimme Money!!!</button>
+	</form>
 
 </body>
 </html>
